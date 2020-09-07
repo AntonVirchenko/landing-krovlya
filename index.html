@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Лендинг Кровля</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/script.js" defer></script>
+    <script src='js/swiper-1.js' defer></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/swiper-1.css">
+</head>
+
+<body>
+    <nav class="krovlya-header-nav">
+        <div class="container">
+            <div class="d-flex flex-row justify-content-between align-items-center">
+                <div class="krovlya-header-nav-logo">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo1.png" alt="">
+                    </a>
+                </div>
+                <div class="d-flex flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-xs-column krovlya-header-nav-media">
+                    <div class="krovlya-header-nav-contact">
+                        <span class="krovlya-header-nav-tel"><a href="tel:+38 (099) 906 73 98">+38 (099) 906 73 98</a></span>
+                    </div>
+                    <div class="krovlya-header-nav-contact">
+                        <span class="krovlya-header-nav-tel ml-xl-2 ml-lg-2"><a href="tel:+38 (097) 736 76 38">+38 (097) 736 76 38</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class="krovlya-header">
+        <div class="container d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-xs-column justify-content-start align-items-center krovlya-header-media flex-column ">
+            <div class="d-flex align-items-start flex-column col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12">
+                <div class="krovlya-header-content-heading-1">
+                    <span class="font-weight-bold text-white">Кровельные и фасадные материалы из металла</span>
+                </div>
+                <div class="krovlya-header-content-description">
+                    <span class="text-white">У нас вы найдете все что нужно для отделки дома. <br> У нас приятные цены и гарантия качества на все материалы </span>
+                </div>
+                <div class="d-flex flex-row krovlya-header-form">
+                    <button type="button" name="button" value="submit" class="buttonSuccess2 button-order" data-toggle="modal" data-target="#ModalZayavka">Заказать звонок</button>
+                    <a href="#krovlya-catalog">
+                        <button type="button" name="submit" value="submit" class="buttonSuccess2 button-tovary">Посмотреть товары</button>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12">
+                <img src="images/elements.png">
+            </div>
+        </div>
+    </header>
+    <div class="krovlya-header-position-tovary d-none d-xl-flex d-lg-flex d-md-
+    none d-sm-none d-xs-none flex-row justify-content-center">
+        <div class="krovlya-header-position-tovary-element-1 d-flex flex-column align-items-center justify-content-center">
+            <img src="images/metallocherepitsa.png">
+            <span>Металлочерепица</span>
+        </div>
+        <div class="krovlya-header-position-tovary-element-2 d-flex flex-column align-items-center justify-content-center">
+            <img src="images/romb_fas.png">
+            <span>Фасадные ромбы</span>
+        </div>
+        <div class="krovlya-header-position-tovary-element-3 d-flex flex-column align-items-center justify-content-center">
+            <img src="images/68m.png">
+            <span>Профнастил</span>
+        </div>
+    </div>
+    <main>
+        <div class="d-flex justify-content-center container">
+            <span class="krovlya-price-text text-center">
+                <h1>Цены на профнастил (профлист)</h1>
+            </span>
+        </div>
+        <a name="krovlya-catalog">
+            <div class="container krovlya-catalog d-flex justify-content-center align-items-start flex-row">
+                <div class="d-flex align-items-center justify-content-start">
+                    <div class="krovlya-catalog-cart">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#paneli">Панели</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#romby">Ромбы</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#metallosajding">Металлосайдинг</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#kassety">Кассеты</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#sofity">Софиты</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#metallocherepica">Металлочерепица</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#profnastil">Профнастил</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active mt-3" id="paneli">
+                                <div class="d-flex flex-column justify-content-start flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-xs-column align-items-start">
+                                    <div class="d-flex flex-column align-items-start justify-content-center krovlya-catalog-tovary-style">
+                                        <img src="images/paneli/1.png" alt="">
+                                        <div class="krovlya-catalog-tovary d-flex flex-column mt-3">
+                                            <span class="krovlya-catalog-tovary-name font-weight-bold">Панель фасадная ТермаСтил</span>
+                                            <span class="krovlya-catalog-tovary-description">Общая ширина: 512 мм <br>
+                                            Длина: 500-4000 мм (кратно 100 мм)<br>
+                                            Глубина: 47 мм<br>
+                                            </span>
+                                            <span class="krovlya-catalog-tovary-price font-weight-bold mt-3">
+                                                Цена - 239.00 грн за м2
+                                            </span>
+                                        </div>
+                                        <div class="krovlya-catalog-tovary-button d-flex align-self-start mt-2">
+                                            <button class="mt-4" data-toggle="modal" data-target="#ModalZayavka">Заказать</button>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column align-items-start justify-content-center krovlya-catalog-tovary-style ml-xl-4 ml-lg-4">
+                                        <img src="images/paneli/2.png" alt="">
+                                        <div class="krovlya-catalog-tovary d-flex flex-column mt-3">
+                                            <span class="krovlya-catalog-tovary-name font-weight-bold">Панель фасадная ТермаСтил</span>
+                                            <span class="krovlya-catalog-tovary-description">Общая ширина: 325±6 мм <br>
+                                            Длина: 500-4000 мм (кратно 100 мм)<br>
+                                            Глубина: 30 мм<br>
+                                            </span>
+                                            <span class="krovlya-catalog-tovary-price font-weight-bold mt-3">
+                                                Цена - 280.00 грн за м2
+                                            </span>
+                                        </div>
+                                        <div class="krovlya-catalog-tovary-button mt-2 d-flex align-self-start">
+                                            <button class="mt-4" data-toggle="modal" data-target="#ModalZayavka">Заказать</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade mt-3" id="romby">
+                                <div class="d-flex flex-row justify-content-start">
+                                    <div class="d-flex flex-column align-items-start krovlya-catalog-tovary-style">
+                                        <img src="images/romby/1.png" alt="">
+                                        <div class="krovlya-catalog-tovary d-flex flex-column justify-content-center mt-3">
+                                            <span class="krovlya-catalog-tovary-name font-weight-bold">Фасадные системы "Ромбы" ТермаСтил</span>
+                                            <span class="krovlya-catalog-tovary-description">Ширина: от 220 ± 2 мм до 1220 ±2 мм <br>
+                                                Длина: от 220 ± 2 мм до 3920 ±2 мм<br>
+                                                Толщина металла: от 0,45 до 0,7 мм<br>
+                                                Крепёж: Скрытый, кляймер
+                                            </span>
+                                            <span class="krovlya-catalog-tovary-price font-weight-bold mt-3">
+                                                Цена: 464.00 грн за м2
+                                            </span>
+                                        </div>
+                                        <div class="krovlya-catalog-tovary-button mt-2 d-flex align-self-start">
+                                            <button data-toggle="modal" data-target="#ModalZayavka">Заказать</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade mt-3" id="metallosajding">
+                                <div class="d-flex flex-column justify-content-start flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-xs-column align-items-start">
+                                    <div class="d-flex flex-column align-items-start justify-content-center krovlya-catalog-tovary-style">
+                                        <img src="images/matallosajding/1.png" alt="">
+                                        <div class="krovlya-catalog-tovary d-flex flex-column mt-3">
+                                            <span class="krovlya-catalog-tovary-name font-weight-bold">Металлосайдинг ТермаСтил</span>
+                                            <span class="krovlya-catalog-tovary-description">Общая ширина: 365 мм <br>
+                                                Длина: от 500 до 6000 мм <br>
+                                                Глубина: 28±1 мм <br>
+                                                Kрепёж: скрытый
+                                            </span>
+                                            <span class="krovlya-catalog-tovary-price font-weight-bold mt-3">
+                                                Цена: 202.00 грн за м2
+                                            </span>
+                                        </div>
+                                        <div class="krovlya-catalog-tovary-button mt-2 d-flex align-self-start">
+                                            <button class="mt-4" data-toggle="modal" data-target="#ModalZayavka">Заказать</button>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column align-items-start justify-content-center krovlya-catalog-tovary-style ml-xl-4 ml-lg-4">
+                                        <img src="images/matallosajding/2.png" alt="">
+                                        <div class="krovlya-catalog-tovary d-flex flex-column mt-3">
+                                            <span class="krovlya-catalog-tovary-name font-weight-bold">Металлосайдинг Сталекс</span>
+                                            <span class="krovlya-catalog-tovary-description">Общая ширина: 365 мм<br>
+                                                Толщина: 0,4-0,45 мм</span>
+                                            <span class="krovlya-catalog-tovary-price font-weight-bold krovlya-catalog-tovary-margin">
+                                                Цена: 145.00 грн за м2
+                                            </span>
+                                        </div>
+                                        <div class="krovlya-catalog-tovary-button mt-2 d-flex align-self-start">
+                                            <button class="mt-4" data-toggle="modal" data-target="#ModalZayavka">Заказать</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade mt-3" id="kassety">
+                                <div class="d-flex flex-column justify-content-start flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-xs-column align-items-center">
+                                    <div class="d-flex flex-column align-items-start justify-content-center krovlya-catalog-tovary-style">
+                                        <img src="images/kasety/1.png" alt="">
+                                        <div class="krovlya-catalog-tovary d-flex flex-column mt-3">
+                                            <span class="krovlya-catalog-tovary-name font-weight-bold">Фасадные кассеты открытого и закрытого монтажа ТермаСтил</span>
+                                            <span class="krovlya-catalog-tovary-description">Ширина горизонтального и вертикального стыка 23 мм <br>
+                                                Толщина металла сталь 0,4-1,0 мм</span>
+                                            <span class="krovlya-catalog-tovary-price font-weight-bold mt-2">
+                                                Цена: 443.00 грн за м2
+                                            </span>
+                                        </div>
+                                        <div class="krovlya-catalog-tovary-button mt-2 d-flex align-self-start">
+                                            <button class="mt-4" data-toggle="modal" data-target="#ModalZayavka">Заказать</button>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column align-items-start justify-content-center krovlya-catalog-tovary-style ml-xl-4 ml-lg-4">
+                                        <img src="images/kasety/2.png" alt="">
+                                        <div class="krovlya-catalog-tovary d-flex flex-column mt-3">
+                                            <span class="krovlya-catalog-tovary-name font-weight-bold">Стальная стеновая кассета ВСК Tile (Тайл)</span>
+                                            <span class="krovlya-catalog-tovary-description">Ширина 600 мм<br>
+                                                Глубина 110-210 мм</span>
+                                            <span class="krovlya-catalog-tovary-price font-weight-bold mt-4">
+                                                Цена: от 202.00 грн за м2
+                                            </span>
+                                        </div>
+                                        <div class="krovlya-catalog-tovary-button mt-2 d-flex align-self-start">
+                                            <button class="mt-4" data-toggle="modal" data-target="#ModalZayavka">Заказать</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade mt-3" id="sofity">
+                                <div class="d-flex flex-column justify-content-start flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-xs-column align-items-center">
+                                    <div class="d-flex flex-column align-items-start justify-content-center krovlya-catalog-tovary-style">
+                                        <img src="images/sofity/1.png" alt="">
+                                        <div class="krovlya-catalog-tovary d-flex flex-column mt-3">
+                                            <span class="krovlya-catalog-tovary-name font-weight-bold">Софит металлический, без перфорации ТермаСтил</span>
+                                            <span class="krovlya-catalog-tovary-description">Общая ширина: 547 мм <br>
+                                                Длина: до 6000 мм (кратно 10 мм) <br>
+                                                Глубина: 18 мм <br>
+                                                Крепёж: скрытый
+                                            </span>
+                                            <span class="krovlya-catalog-tovary-price font-weight-bold mt-3">
+                                                Цена: 142.00 грн за м2
+                                            </span>
+                                        </div>
+                                        <div class="krovlya-catalog-tovary-button mt-2 d-flex align-self-start">
+                                            <button class="mt-4" data-toggle="modal" data-target="#ModalZayavka">Заказать</button>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column align-items-start justify-content-center krovlya-catalog-tovary-style ml-xl-4 ml-lg-4">
+                                        <img src="images/sofity/2.png" alt="">
+                                        <div class="krovlya-catalog-tovary d-flex flex-column mt-3">
+                                            <span class="krovlya-catalog-tovary-name font-weight-bold">Софит металлический, перфорированный ТермаСтил</span>
+                                            <span class="krovlya-catalog-tovary-description">Общая ширина: 547 мм <br>
+                                                Длина: до 6000 мм (кратно 10 мм) <br>
+                                                Глубина: 18 мм <br>
+                                                Крепёж: скрытый
+                                            </span>
+                                            <span class="krovlya-catalog-tovary-price font-weight-bold mt-3">
+                                                Цена: 147.00 грн за м2
+                                            </span>
+                                        </div>
+                                        <div class="krovlya-catalog-tovary-button mt-2 d-flex align-self-start">
+                                            <button class="mt-4" data-toggle="modal" data-target="#ModalZayavka">Заказать</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade mt-3" id="metallocherepica">
+                                <div class="d-flex flex-column justify-content-between flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-xs-column align-items-center">
+                                    <div class="d-flex flex-column align-items-start justify-content-center krovlya-catalog-tovary-style p-5">
+                                        <img src="images/metalocherepica/1.png" alt="">
+                                        <div class="krovlya-catalog-tovary d-flex flex-column mt-3">
+                                            <span class="krovlya-catalog-tovary-name font-weight-bold">Металлочерепица Tile (Тайл)</span>
+                                            <span class="krovlya-catalog-tovary-description">Высота от 23 мм <br>
+                                                Ширина от 1140 мм</span>
+                                            <span class="krovlya-catalog-tovary-price font-weight-bold mt-4">
+                                                Цена: от 123.00 грн за м2
+                                            </span>
+                                        </div>
+                                        <div class="krovlya-catalog-tovary-button mt-2 d-flex align-self-start">
+                                            <button class="mt-4" data-toggle="modal" data-target="#ModalZayavka">Заказать</button>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column align-items-start justify-content-center krovlya-catalog-tovary-style p-5">
+                                        <img src="images/metalocherepica/2.png" alt="">
+                                        <div class="krovlya-catalog-tovary d-flex flex-column mt-3">
+                                            <span class="krovlya-catalog-tovary-name font-weight-bold">Металлочерепица Rauni(Рауни)</span>
+                                            <span class="krovlya-catalog-tovary-description"> Толщина 0,45 мм <br>
+                                                Ширина 1180 мм</span>
+                                            <span class="krovlya-catalog-tovary-price font-weight-bold mt-4">
+                                                Цена: от 147.00 грн за м2
+                                            </span>
+                                        </div>
+                                        <div class="krovlya-catalog-tovary-button mt-2 d-flex align-self-start">
+                                            <button class="mt-4" data-toggle="modal" data-target="#ModalZayavka">Заказать</button>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column align-items-start justify-content-center krovlya-catalog-tovary-style p-5">
+                                        <img src="images/metalocherepica/3.png" alt="">
+                                        <div class="krovlya-catalog-tovary d-flex flex-column mt-3">
+                                            <span class="krovlya-catalog-tovary-name font-weight-bold">Металлочерепица Строймастер Рост</span>
+                                            <span class="krovlya-catalog-tovary-description">Высота 22 мм <br>
+                                                Ширина 1100 мм</span>
+                                            <span class="krovlya-catalog-tovary-price font-weight-bold mt-4">
+                                                Цена: от 134.00 грн за м2
+                                            </span>
+                                        </div>
+                                        <div class="krovlya-catalog-tovary-button mt-2 d-flex align-self-start">
+                                            <button class="mt-4" data-toggle="modal" data-target="#ModalZayavka">Заказать</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade mt-3" id="profnastil">
+                                <div class="d-flex flex-column justify-content-between flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-xs-column align-items-center">
+                                    <div class="d-flex flex-column align-items-start justify-content-center krovlya-catalog-tovary-style">
+                                        <img src="images/profnastil-tile.png" alt="">
+                                        <div class="krovlya-catalog-tovary d-flex flex-column mt-3">
+                                            <span class="krovlya-catalog-tovary-name font-weight-bold">Профнастил Tile (Тайл)</span>
+                                            <span class="krovlya-catalog-tovary-description">Ширина 990-1205 мм<br>
+                                                Высота – 8-135 мм</span>
+                                            <span class="krovlya-catalog-tovary-price font-weight-bold mt-4">
+                                                Цена: от 125.00 грн за м2
+                                            </span>
+                                        </div>
+                                        <div class="krovlya-catalog-tovary-button mt-2 d-flex align-self-start">
+                                            <button class="mt-4" data-toggle="modal" data-target="#ModalZayavka">Заказать</button>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column align-items-start justify-content-center krovlya-catalog-tovary-style">
+                                        <img src="images/profnastil-stm.png" alt="">
+                                        <div class="krovlya-catalog-tovary d-flex flex-column mt-3">
+                                            <span class="krovlya-catalog-tovary-name font-weight-bold">Профнастил Строймастер Рост</span>
+                                            <span class="krovlya-catalog-tovary-description">Длина 1500-2000 мм<br>
+                                                Ширина 950 мм</span>
+                                            <span class="krovlya-catalog-tovary-price font-weight-bold mt-4">
+                                                Цена: от 100.00 грн за м2
+                                            </span>
+                                        </div>
+                                        <div class="krovlya-catalog-tovary-button mt-2 d-flex align-self-start">
+                                            <button class="mt-4" data-toggle="modal" data-target="#ModalZayavka">Заказать</button>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column align-items-start justify-content-center krovlya-catalog-tovary-style">
+                                        <img src="images/profnastil-decor.png" alt="">
+                                        <div class="krovlya-catalog-tovary d-flex flex-column mt-3">
+                                            <span class="krovlya-catalog-tovary-name font-weight-bold">Профнастил декоративный</span>
+                                            <span class="krovlya-catalog-tovary-description">Толщина 30-35 микрон<br>
+                                                Цвет под дерево, камень</span>
+                                            <span class="krovlya-catalog-tovary-price font-weight-bold mt-4">
+                                                Цена: от 100.00 грн за м2
+                                            </span>
+                                        </div>
+                                        <div class="krovlya-catalog-tovary-button mt-2 d-flex align-self-start">
+                                            <button class="mt-4" data-toggle="modal" data-target="#ModalZayavka">Заказать</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <div class="container krovlya-header-logo">
+            <div class="krovlya-header-logo-media d-flex flex-lg-row flex-xl-row flex-md-column flex-sm-column flex-xs-column justify-content-center align-items-center">
+                <div class="d-flex justify-content-center align-items-end">
+                    <div class="krovlya-header-logo-terma">
+                        <img src="logo/terma.png" alt="">
+                    </div>
+                    <div class="krovlya-header-logo-rauni ml-5">
+                        <img src="logo/rauni.png" alt="">
+                    </div>
+                    <div class="krovlya-header-logo-tile ml-5">
+                        <img src="logo/Tile.png" alt="">
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center align-items-end">
+                    <div class="krovlya-header-logo-vacancies ml-5">
+                        <img src="logo/vacancies-logo.png" alt="">
+                    </div>
+                    <div class="krovlya-header-logo-strou ml-5">
+                        <img src="logo/strou.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center align-items-center flex-column krovlya-zayavka">
+            <div class="container d-flex justify-content-center align-items-center flex-column">
+                <span class="text-center krovlya-zayavka-text">Оставьте заявку на консультацию и наш менеджер <br> свяжется с Вами</span>
+                <button type="submit" class="mt-4 krovlya-zayavka-button" data-toggle="modal" data-target="#ModalZayavka">Оставить заявку</button>
+            </div>
+        </div>
+        <div class="krovlya-price d-flex flex-column justify-content-center align-items-center">
+            <div class="container">
+                <div class="krovlya-price-heading text-center">
+                    <span>
+                        <h2>Купить кровельные и фасадные материалы из металла <br> от ведущих производителей</h2>
+                    </span>
+                </div>
+                <div class="krovlya-price-media d-flex mt-4 col-xl-9 col-md-12 align-self-center justify-content-center flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-xs-column">
+                    <div class="d-flex flex-column mt-4">
+                        <div class="d-flex flex-row">
+                            <img src="icons/list 2.png" alt="">
+                            <div class="krovlya-price-text d-flex flex-column">
+                                <span class="font-weight-bold krovlya-price-description-heading">Лучшие производители</span>
+                                <span class="krovlya-price-description ">Производители, которые много <br> лет занимают лидирующие <br> позиции на рынке кровельных <br> стройматериалов.</span>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row mt-4">
+                            <img src="icons/list 2.png" alt="">
+                            <div class="krovlya-price-text d-flex flex-column">
+                                <span class="font-weight-bold krovlya-price-description-heading">Огромный выбор</span>
+                                <span class="krovlya-price-description ">Огромная цветовая гамма, <br> современный дизайн, разнообразие <br> фактур, производителей и стоимости.</span>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row mt-4">
+                            <img src="icons/list 2.png" alt="">
+                            <div class="krovlya-price-text d-flex flex-column">
+                                <span class="font-weight-bold krovlya-price-description-heading">Качество материалов</span>
+                                <span class="krovlya-price-description ">Секрет долговечности <br> - исключительное качество и <br> стойкость металла</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column ml-xl-5">
+                        <div class="d-flex flex-row mt-4">
+                            <img src="icons/list 2.png" alt="">
+                            <div class="krovlya-price-text d-flex flex-column">
+                                <span class="font-weight-bold krovlya-price-description-heading">Устойчивость</span>
+                                <span class="krovlya-price-description ">Профнастил и профлист обладают <br> прочностью, гибкостью и отличной <br>устойчивостью к влаге.</span>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row mt-5">
+                            <img src="icons/list 2.png" alt="">
+                            <div class="krovlya-price-text d-flex flex-column">
+                                <span class="font-weight-bold krovlya-price-description-heading">Простой монтаж</span>
+                                <span class="krovlya-price-description ">Лёгкость и простота монтажных работ. <br> Основное преимущество - можно <br> использовать на крышах и фасадах <br> любой конфигурации.</span>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row mt-1">
+                            <img src="icons/list 2.png" alt="">
+                            <div class="krovlya-price-text d-flex flex-column">
+                                <span class="font-weight-bold krovlya-price-description-heading">Долговечность конструкции</span>
+                                <span class="krovlya-price-description ">Срок эксплуатации может достигать <br> 15-25 лет.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center align-items-center flex-column krovlya-zayavka">
+            <div class="container d-flex justify-content-center align-items-center flex-column">
+                <span class="text-center krovlya-zayavka-text">Оставьте заявку на консультацию и наш менеджер <br> свяжется с Вами</span>
+                <form class="krovlya-zayavka-form d-flex flex-column flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-xs-column justify-content-center align-items-center mt-4">
+                    <div class="form-group">
+                        <input type="text" name="Имя" placeholder='Ваше имя*'>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Ваш телефон*" class="ml-xl-4 ml-lg-4 ml-md-0">
+                    </div>
+                    <div class="form-group">
+                        <button type="button" class="ml-xl-4 ml-lg-4 ml-md-0">Заказать звонок</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="container krovlya-works d-flex justify-content-center align-items-center flex-column">
+            <span class="krovlya-works-text text-center">
+                <h2>Как мы работаем</h2>
+            </span>
+            <div class="d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-xs-column krovlya-works-media justify-content-center align-items-center mt-5">
+                <div class="d-flex flex-column align-items-center justify-content-center mr-3">
+                    <div class="krovlya-works-call d-flex justify-content-center align-items-center">
+                        <img src="icons/smartphone.png" alt="">
+                    </div>
+                    <span class="text-center krovlya-works-icon-text mt-4"><b>Звонок или заявка с сайта</b><br><span class="">Вы оставляете заявку, наш менеджер<br>связывается с Вами</span>
+                    </span>
+                </div>
+                <div class="d-flex flex-column justify-content-center align-items-center mr-3">
+                    <div class="krovlya-works-list d-flex justify-content-center align-items-center">
+                        <img src="icons/list.png" alt="">
+                    </div>
+                    <span class="text-center krovlya-works-icon-text mt-4"><b>Согласуем стоимости и сроки</b><br><span class="">Обсуждаем детали, подбираем<br>оптимальный вариант</span>
+                    </span>
+                </div>
+                <div class="d-flex flex-column justify-content-center align-items-center mr-3">
+                    <div class="krovlya-works-paid d-flex justify-content-center align-items-center">
+                        <img src="icons/wallet.png" alt="">
+                    </div>
+                    <span class="text-center krovlya-works-icon-text mt-4"><b>Удобная оплата</b><br><span class="">Наличный и безналичный расчет,<br>на банковскую карточку</span>
+                    </span>
+                </div>
+                <div class="d-flex flex-column justify-content-center align-items-center mr-3">
+                    <div class="krovlya-works-shipped d-flex justify-content-center align-items-center">
+                        <img src="icons/shipped.png" alt="">
+                    </div>
+                    <span class="text-center krovlya-works-icon-text mt-4"><b>Оперативная доставка</b><br><span class="">Доставляем товар в кратчайшие<br>сроки</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="krovlya-footer">
+            <div class="container d-flex flex-column justify-content-center align-items-center">
+                <span class="krovlya-footer-heading text-center">
+                    <h3>Профнастил и профлист купить в Украине</h3>
+                </span>
+                <div class="d-flex flex-lg-row flex-xl-row flex-md-row flex-sm-column flex-xs-column krovlya-footer-media justify-content-center mt-4 align-items-center">
+                    <div class="krovlya-footer-adress mr-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <img src="icons/location-pin.png" alt="">
+                        <span class="krovlya-footer-adress-text-header text-center">Мы находимся</span> <br>
+                        <span class="krovlya-footer-adress-text text-center">
+                            Украина, г. Харьков,<br> Академика Павлова, 88
+                        </span>
+                    </div>
+                    <div class="krovlya-footer-phone mr-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <img src="icons/call-answer.png" alt="">
+                        <span class="krovlya-footer-adress-text-header text-center">Позвонить нам</span> <br>
+                        <span class="krovlya-footer-adress-text text-center">
+                            <a href="tel:+38 (099) 906 73 98">+38 (099) 906 73 98</a>
+                        </span><br>
+                        <span class="krovlya-footer-adress-text text-center">
+                            <a href="tel:+38 (097) 736 76 38">+38 (097) 736 76 38</a>
+                        </span><br>
+                    </div>
+                    <div class="krovlya-footer-phone mr-3 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <img src="icons/watch.png" alt="">
+                        <span class="krovlya-footer-adress-text-header text-center">График работы</span> <br>
+                        <span class="krovlya-footer-adress-text text-center">
+                            Менеджер с 8:00 до 20:00
+                        </span><br>
+                        <span class="krovlya-footer-adress-text text-center">
+                            Прием заказов online 24/7
+                        </span><br>
+                    </div>
+                    <div class="krovlya-footer-phone mr-3 d-flex flex-column align-items-center justify-content-center col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-md-3 mt-xs-3 mt-sm-3 mt-3">
+                        <span class="krovlya-footer-phone-text text-center mb-3">Закажите звонок</span>
+                        <button type="button" data-toggle="modal" data-target="#ModalZayavka">Заказать звонок</button>
+                    </div>
+                </div>
+                <span class="krovlya-footer-copyright mt-5 text-center">
+                    © 2020 Metal Build Все права защищены
+                </span>
+            </div>
+        </div>
+    </footer>
+    <!-- Modal -->
+    <div class="modal fade" id="ModalZayavka" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+            <div class="modal-content d-flex justify-content-center flex-column">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="d-flex justify-content-center flex-column">
+                        <span class="text-center krovlya-zayavka-text-heading">ЗАПОЛНИТЕ ФОРМУ</span>
+                        <span class="text-center krovlya-zayavka-text-desc">и наш менеджер свяжется <br> с вами в ближайшее время </span>
+                    </div>
+                    <form class="d-flex flex-column align-items-center krovlya-header-form pb-2 krovlya-form-1">
+                        <input type="hidden" name="project_name" value="Заявка bud-ukraine.com.ua">
+                        <input type="hidden" name="admin_email" value="stroimasterrost@gmail.com">
+                        <input type="hidden" name="form_subject" value="Заявка с сайта bud-ukraine.com.ua">
+                        <input type="hidden" id="vendor-field" name="Бренд" value="">
+                        <div class="form-group d-flex flex-row">
+                            <input type="text" name="Имя" placeholder="Ваше имя*" id="name1">
+                            <div class="krovlya-form-1-im">
+                                <img src="icons/im.png" alt="">
+                            </div>
+                        </div>
+                        <div class="form-group d-flex flex-row">
+                            <input type="text" name="Телефон" placeholder="Ваш телефон*" id="phone1">
+                            <div class="krovlya-form-1-im">
+                                <img src="icons/ph.png" alt="">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <button type="button" name="submit" value="" class="buttonSuccess" >Заказать звонок</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- success modal -->
+    <div class="modal fade" id="succesModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header ml-3">
+                    <div class="d-flex justify-content-center ml-3">
+                        <h3 class="modal-title text-center krovlya-succes-modal-heading ml-3" id="exampleModalLongTitle1">ВАША ЗАЯВКА ПРИНЯТА!</h3>
+                    </div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body d-flex justify-content-center align-items-center flex-row">
+                    <span class="h6 text-center">Наш менеджер свяжется с Вами в ближайшее время</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- success modal -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>

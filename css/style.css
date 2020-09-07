@@ -1,0 +1,711 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: OpenSans-Bold;
+    /* Имя шрифта */
+    src: url('../fonts/OpenSans-Bold.ttf');
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: OpenSans-BoldItalic;
+    /* Имя шрифта */
+    src: url('../fonts/OpenSans-BoldItalic.ttf');
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: OpenSans-ExtraBold;
+    /* Имя шрифта */
+    src: url('../fonts/OpenSans-ExtraBold.ttf');
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: OpenSans-ExtraBoldItalic;
+    /* Имя шрифта */
+    src: url('../fonts/OpenSans-ExtraBoldItalic.ttf');
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: OpenSans-Italic;
+    /* Имя шрифта */
+    src: url('../fonts/OpenSans-Italic.ttf');
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: OpenSans-ExtraBoldItalic;
+    /* Имя шрифта */
+    src: url('../fonts/OpenSans-ExtraBoldItalic.ttf');
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: OpenSans-Light;
+    /* Имя шрифта */
+    src: url('../fonts/OpenSans-Light.ttf');
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: OpenSans-LightItalic;
+    /* Имя шрифта */
+    src: url('../fonts/OpenSans-LightItalic.ttf');
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: OpenSans-Regular;
+    /* Имя шрифта */
+    src: url('../fonts/OpenSans-Regular.ttf');
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: OpenSans-Semibold;
+    /* Имя шрифта */
+    src: url('../fonts/OpenSans-Semibold.ttf');
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: OpenSans-SemiboldItalic;
+    /* Имя шрифта */
+    src: url('../fonts/OpenSans-SemiboldItalic.ttf');
+    /* Путь к файлу со шрифтом */
+}
+
+.krovlya-header-nav img {
+    width: 180px;
+    height: 40px;
+}
+
+.krovlya-header-form .button-order,
+.krovlya-catalog-tovary-button button,
+.krovlya-zayavka-button,
+.krovlya-zayavka button,
+.krovlya-footer-phone button {
+    background-color: #ea4b24;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 18px;
+    font-family: OpenSans-Semibold;
+    font-size: 16px;
+    color: white !important;
+}
+
+.krovlya-header-form {
+    margin-top: 40px;
+}
+
+.krovlya-header-form .button-tovary {
+    background-color: rgba(255, 255, 255, .1);
+    font-family: OpenSans-Regular;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 18px;
+    margin-left: 22px;
+    border: none;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    border-color: #ff4f24 #ff4f24 #fff !important;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #ff4f24 !important;
+}
+
+.nav-item a {
+    font-family: OpenSans-Regular;
+    font-size: 18px;
+}
+
+
+
+
+.krovlya-header {
+    background-image: url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 150px 0;
+}
+
+
+.krovlya-header-nav-tel a,
+.krovlya-footer-adress-text a {
+    color: white !important;
+}
+
+.krovlya-header-nav {
+    background-image: url("../images/nav-bg.png");
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    overflow-y: hidden;
+}
+
+.krovlya-header-position-tovary-element-1,
+.krovlya-header-position-tovary-element-2,
+.krovlya-header-position-tovary-element-3 {
+    background-color: white;
+    border-radius: 10px;
+    width: 210px;
+    height: 134px;
+    padding: 5px 26px;
+    position: relative;
+    top: -85px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    font-family: OpenSans-Semibold;
+}
+
+.krovlya-header-position-tovary-element-3,
+.krovlya-header-position-tovary-element-2 {
+    margin-left: 85px;
+}
+
+.krovlya-catalog-tovary-style {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 28px 23px;
+    width: 300px;
+    height: 100%;
+}
+
+.krovlya-catalog-tovary-style img {
+    width: 150px;
+    height: 120px;
+    display: flex;
+    align-self: center !important;
+}
+
+.krovlya-catalog {
+    height: 620px;
+}
+
+
+.krovlya-header-position-tovary-element img {
+    width: 130px;
+    height: 100px;
+}
+
+.krovlya-header-content-heading-1 {
+    font-family: OpenSans-ExtraBold;
+    font-size: 36px;
+}
+
+.krovlya-header-content-description {
+    font-family: OpenSans-Regular;
+    font-size: 18px;
+    margin-top: 22px;
+}
+
+::placeholder {
+    color: white;
+}
+
+.krovlya-price {
+    background-image: url("../bg.png");
+    width: 100%;
+    height: 100%;
+    padding: 85px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.krovlya-catalog-tovary-margin{
+	margin-top: 60px;
+}
+
+.krovlya-price-heading {
+    font-family: OpenSans-Semibold;
+}
+
+.krovlya-price-description {
+    font-family: OpenSans-Regular;
+}
+
+.krovlya-header-logo-rauni img,
+.krovlya-header-logo-strou img,
+.krovlya-header-logo-terma img {
+    width: 180px;
+    height: 70px;
+}
+
+.krovlya-header-logo-tile img,
+.krovlya-header-logo-vacancies img {
+    width: 130px;
+    height: 100px;
+}
+
+.krovlya-price-description-heading {
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+.krovlya-price-heading {
+    font-size: 30px;
+}
+
+.krovlya-price img {
+    width: 50px;
+    height: 50px;
+}
+
+.krovlya-price {
+    background-image: url("../images/bg-media.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.krovlya-price-description {
+    font-size: 16px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.krovlya-zayavka {
+    background-image: url("../images/bg-zayavka.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 45px 0;
+    margin-top: 50px;
+}
+
+.krovlya-zayavka-text {
+    font-family: OpenSans-Regular;
+    font-size: 24px;
+    color: white;
+}
+
+.krovlya-zayavka-form input {
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+}
+
+.krovlya-zayavka button {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+::placeholder {
+    color: grey;
+    font-family: OpenSans-Regular;
+    padding: 10px;
+}
+
+
+.swiper-slide img {
+    width: 540px;
+    height: 400px;
+}
+
+h2,h1 {
+    font-size: 30px !important;
+    font-family: OpenSans-Semibold !important;
+}
+
+.krovlya-catalog {
+    padding: 60px 0;
+}
+
+.krovlya-catalog span {
+    font-family: OpenSans-Regular;
+    font-size: 15px;
+}
+
+.krovlya-catalog-cart {
+    display: flex;
+    align-self: flex-start;
+}
+
+.krovlya-catalog-cart .nav-item a {
+    color: black;
+}
+
+.krovlya-catalog-cart {
+    flex-direction: column;
+}
+
+
+.krovlya-works {
+    padding: 76px 0;
+    width: 100%;
+}
+
+.krovlya-works span {
+    font-family: OpenSans-Light;
+}
+
+.krovlya-works span b {
+    font-family: OpenSans-Semibold;
+}
+
+.krovlya-works img {
+    width: 92px;
+    height: 90px;
+}
+
+
+.krovlya-footer {
+    width: 100%;
+    padding: 20px 0;
+    background-image: url("../images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.krovlya-footer-heading h3 {
+    color: white;
+    font-family: OpenSans-Semibold;
+    font-size: 24px;
+}
+
+.krovlya-footer-media span,
+.krovlya-footer-copyright {
+    font-family: OpenSans-Regular;
+    color: white;
+    font-size: 16px;
+}
+
+.krovlya-footer-adress-text-header {
+    color: #ff4f24 !important;
+}
+
+.krovlya-footer img {
+    width: 17px;
+    height: 20px;
+}
+
+.close {
+    color: black !important;
+}
+
+.krovlya-form-1-im {
+    background-color: #ea4c26;
+    border-bottom-left-radius: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: none;
+    height: 30px;
+    padding: 0 8px;
+}
+
+.krovlya-form-1 input {
+    background-color: white;
+    border-left: 1px solid #ea4c26;
+    border-bottom: 1px solid #ea4c26;
+    border-top: 1px solid #ea4c26;
+    border-right: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: none;
+    border-top-right-radius: none;
+    border-top-left-radius: 5px;
+    height: 30px;
+}
+
+.krovlya-form-1 button {
+    width: 205px;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 0;
+    background-color: #ea4c26;
+    color: white;
+}
+
+.krovlya-form-1 img {
+    width: 12px;
+    height: 16px;
+}
+
+#ModalZayavka span,
+#ModalZayavka button {
+    font-family: OpenSans-Semibold;
+}
+
+.krovlya-zayavka-text-heading{
+	font-size: 20px;
+}
+
+.krovlya-zayavka-text-desc{
+	line-height: 1.3;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+.krovlya-succes-modal-heading {
+    border-bottom: 2px solid red;
+}
+
+
+@media (max-width: 575px) {
+
+    .krovlya-header-content-heading-1 span,.krovlya-price-heading h2{
+        font-size: 25px;
+    }
+
+    .krovlya-header-content-heading-2 span {
+        font-size: 20px;
+    }
+
+    .krovlya-zayavka-text{
+    	font-size: 20px;
+    }
+
+    .krovlya-price-media {
+        flex-direction: column !important;
+    }
+
+    .krovlya-price-heading {
+        font-size: 22px;
+        align-self: center !important;
+    }
+
+    .krovlya-catalog-image img {
+        width: 400px;
+        height: 200px;
+    }
+
+    .krovlya-price-text {
+        font-size: 24px;
+    }
+
+    .krovlya-footer-media {
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    .krovlya-header-nav-media {
+        flex-direction: column !important;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1000px) {
+    .krovlya-price {
+        background-image: none;
+    }
+
+    .krovlya-catalog {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .nav-tabs {
+        margin-top: 30px;
+    }
+
+    .krovlya-header img {
+        width: 350px;
+        height: 300px;
+    }
+
+    .krovlya-catalog {
+        height: 100%;
+    }
+
+    .krovlya-catalog-tovary-style {
+        margin-top: 10px;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 620px) {
+
+    .krovlya-header-logo-rauni img,
+    .krovlya-header-logo-strou img,
+    .krovlya-header-logo-terma img {
+        width: 130px;
+        height: 70px;
+    }
+
+    .krovlya-header-logo-tile img,
+	.krovlya-header-logo-vacancies img {
+    	width: 100px;
+    	height: 100px;
+	}
+}
+
+@media (max-width: 768px) {
+    .krovlya-header-logo-media {
+        flex-direction: column !important;
+    }
+
+    .krovlya-header-logo {
+        flex-direction: row !important;
+        justify-content: space-between !important;
+    }
+
+    .krovlya-header-logo img {
+        margin-top: 30px;
+    }
+
+    .krovlya-works-media {
+        flex-direction: column !important;
+    }
+
+    .navbar-brand img {
+        width: 160px;
+        height: 40px;
+    }
+
+    .krovlya-header-nav {
+        padding: 0 5px;
+    }
+
+    .krovlya-header img {
+        width: 100%;
+        height: 100%;
+        margin-top: 40px;
+    }
+
+    .krovlya-price-text h1 {
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+    .krovlya-catalog-tovary-style {
+        margin-top: 10px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .krovlya-catalog {
+        height: 100%;
+    }
+
+    .krovlya-zayavka button{
+    	padding: 0 35px;
+    }
+
+
+}
+
+@media (max-width: 430px) {
+
+    .krovlya-zayavka-text {
+        font-size: 22px;
+    }
+
+    .krovlya-header-content-heading-1 span {
+        font-size: 30px;
+    }
+
+    .krovlya-header-content-heading-2 span {
+        font-size: 20px;
+    }
+
+    .krovlya-catalog-image img {
+        width: 350px;
+        height: 190px;
+    }
+
+    .krovlya-header-nav-media {
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    .krovlya-header-nav-tel {
+        font-size: 14px;
+    }
+
+    .krovlya-header-nav {
+        padding: 0 10px;
+    }
+
+    .tab-content img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .krovlya-catalog-tovary-name,
+    .krovlya-catalog-tovary-price {
+        font-size: 18px;
+    }
+
+    .krovlya-catalog-tovary-description {
+        font-size: 14px;
+    }
+
+    .krovlya-header-logo-rauni img,
+    .krovlya-header-logo-strou img,
+    .krovlya-header-logo-terma img {
+        width: 80px;
+        height: 50px;
+    }
+
+    .krovlya-header-logo-tile img,
+	.krovlya-header-logo-vacancies img {
+    	width: 80px;
+    	height: 80px;
+	}
+
+}
+
+@media (max-width: 380px) {
+    .krovlya-catalog-image img {
+        width: 300px;
+        height: 190px;
+    }
+
+    .navbar-brand img {
+        width: 130px;
+        height: 30px;
+    }
+
+    .krovlya-footer-adress-text {
+        font-size: 13px;
+    }
+
+    .krovlya-header-logo-rauni img,
+    .krovlya-header-logo-strou img,
+    .krovlya-header-logo-terma img {
+        width: 60px;
+        height: 30px;
+    }
+
+    .krovlya-header-logo-tile img,
+	.krovlya-header-logo-vacancies img {
+    	width: 60px;
+    	height: 60px;
+	}
+
+}
+
+@media (max-width: 340px) {
+    .krovlya-header-nav-tel {
+        font-size: 12px;
+    }
+}
